@@ -6,15 +6,6 @@ namespace CalcularPromedio
     {
         static void Main(string[] args)
         {
-
-            double raizCuadrada = Math.Sqrt(4);
-
-            Console.WriteLine(raizCuadrada);
-
-            double potencia = Math.Pow(2,3);
-
-            Console.WriteLine(potencia);
-
             Console.WriteLine("Seleccion una opcion");
             Console.WriteLine("1- lista materia \n 2-agregar materia \n 3-borrar materia \n 4- editar materia");
             int menu = Convert.ToInt32(Console.ReadLine());
